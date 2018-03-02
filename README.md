@@ -23,14 +23,21 @@ How to test:
 
 Basic Idea
 	Follow the Unambiguous Gramma:
-		<E > → <T > <TT >
-		<TT > → +- <T > <TT > | e
-		<T > → <F > <FT >
-		<FT > → */ <F > <FT > | e
-		<F > → <N > | ( <E > )
-		<N > → <D> <NT >
-		<NT > → <N > | e
-		<D> → 0 | 1 | · · · | 9
+		<E >  →  <T > <TT >
+		
+		<TT > → +- <T > <TT > | e
+		
+		<T >  →  <F > <FT >
+		
+		<FT > → */ <F > <FT > | e
+		
+		<F >  → <N > | ( <E > )
+		
+		<N >  → <D> <NT >
+		
+		<NT > → <N > | e
+		
+		<D>   → 0 | 1 | · · · | 9
 
 	For table Drive, Created a table:
 
